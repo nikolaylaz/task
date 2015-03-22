@@ -1,0 +1,51 @@
+nav {
+  float: left;
+  background-color: #b2b2b2;
+  width: 200px;
+
+  padding-left: 10px;
+
+  ul {
+    li {
+
+      cursor: pointer;
+
+      height: 50px;
+      line-height: 50px;
+      list-style-type: none;
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      &.active {
+        background-color: #ECECEC;
+      }
+    }
+  }
+}
+
+section {
+  float: left;
+
+  table {
+
+    .sortable {
+      cursor: pointer;
+
+      &:after {
+        font-size: 0.8em;
+      }
+
+      &.asc:after {
+        content: " ^"
+      }
+
+      &.desc:after {
+        content: " v"
+      }
+    }
+  }
+}
+
+

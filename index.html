@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" media="(max-width: 1280px)" href="css/mobile.css" />
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="img/blue-address-book-icon.png" width="16" height="16" alt=""/>
+                    <span>Option 1</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="img/blue-user-icon.png" width="16" height="16" alt=""/>
+                    <span>Option 2</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">
+                    <img src="img/blue-balloon-icon.png" width="16" height="16" alt=""/>
+                    <span>Option 3</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <table id="repositories-data" class="table table-bordered">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th class="sortable" data-sortby="name">Name</th>
+                <th class="sortable" data-sortby="html_url">HTML url</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+
+                    <div>
+                        Current page:
+                        <span data-current-page="">1</span>
+                    </div>
+
+                    <ul class="pager">
+                        <li>
+                            <a href="javascript:void(0)" data-action="first-page">First</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-action="prev-page">Prev</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-action="next-page">Next</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            </tfoot>
+            <tbody>
+            </tbody>
+
+        </table>
+    </section>
+
+
+<!-- Jquery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

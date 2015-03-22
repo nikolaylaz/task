@@ -1,0 +1,27 @@
+nav {
+  float: left;
+  background-color: #b2b2b2;
+  width: 200px;
+  padding-left: 10px; }
+  nav ul li {
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    list-style-type: none; }
+    nav ul li a:hover {
+      text-decoration: none; }
+    nav ul li.active {
+      background-color: #ECECEC; }
+
+section {
+  float: left; }
+  section table .sortable {
+    cursor: pointer; }
+    section table .sortable:after {
+      font-size: 0.8em; }
+    section table .sortable.asc:after {
+      content: " ^"; }
+    section table .sortable.desc:after {
+      content: " v"; }
+
+/*# sourceMappingURL=style.css.map */
